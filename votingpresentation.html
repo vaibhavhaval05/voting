@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Slide 1 -->
+<div class="slide active">
+    <h1>College Voting System for Feedback</h1>
+
+    <div class="hug">
+        <p><strong>Institute:</strong> Dr. D.Y. Patil Polytechnic, Kolhapur</p>
+
+        <p><strong>Developed By:</strong></p>
+        <div class="card-grid-2">
+            <div class="card-item">Aastha Shinde</div>
+            <div class="card-item">Shrutika Kalake</div>
+            <div class="card-item">Asmita Padlakar</div>
+            <div class="card-item">Pranav Haval</div>
+        </div>
+        <p style="margin-top: 1.5rem;"><strong>Guide:</strong> S.S. Jadhav</p>
+        <p><strong>Department:</strong> Computer Engineering</p>
+    </div>
+</div>
+
+<!-- Slide 2 -->
+<div class="slide">
+    <h1>Problem Statement</h1>
+
+    <div class="card-grid">
+        <div class="card-item">Manual voting process is time-consuming and requires significant effort</div>
+        <div class="card-item">Long queues and delays during voting and result declaration</div>
+        <div class="card-item">High chances of human error in vote counting</div>
+        <div class="card-item">Lack of transparency and trust in the system</div>
+        <div class="card-item">Paper-based system leads to resource wastage</div>
+        <div class="card-item">Difficult to manage and store large amounts of data</div>
+        <div class="card-item">No real-time result generation</div>
+        <div class="card-item">Security issues such as duplicate voting or manipulation</div>
+    </div>
+</div>
+
+<!-- Slide 3 -->
+<div class="slide">
+    <h1>Existing System</h1>
+
+    <div class="card-grid">
+        <div class="card-item">Voting is conducted using paper ballots</div>
+        <div class="card-item">Votes are collected and counted manually</div>
+        <div class="card-item">Process is time-consuming and inefficient</div>
+        <div class="card-item">High chances of human errors during counting</div>
+        <div class="card-item">Difficult to manage large number of voters</div>
+        <div class="card-item">Lack of transparency in result generation</div>
+        <div class="card-item">No real-time tracking or updates</div>
+        <div class="card-item">Risk of vote duplication or manipulation</div>
+    </div>
+</div>
+
+<!-- Slide 4 -->
+<div class="slide">
+    <h1>Proposed System</h1>
+
+    <div class="hug">
+        <p>The proposed system is an online voting platform designed to provide a secure, efficient, and transparent method for conducting college elections. It eliminates the limitations of the manual system and ensures accurate and fast result generation.</p>
+    </div>
+
+    <div class="card-grid">
+        <div class="card-item">Online voting system accessible through web application</div>
+        <div class="card-item">Secure login authentication for students</div>
+        <div class="card-item">Each student is allowed to vote only once</div>
+        <div class="card-item">Automatic vote counting and instant result generation</div>
+        <div class="card-item">Real-time data storage using database</div>
+        <div class="card-item">Improved transparency and reliability</div>
+        <div class="card-item">Reduces manual effort and paper usage</div>
+        <div class="card-item">Ensures data security and integrity</div>
+    </div>
+</div>
+
+<!-- Slide 5 -->
+<div class="slide">
+    <h1>Architecture - Warm Flow</h1>
+    <div class="image-item">
+            <img src="voting1.png" alt=" Voting System Architecture">
+            <p>Feedback Page</p>
+        </div>
+
+</div>
+
+<!-- Slide 6 -->
+<div class="slide">
+    <h1>Data Flow</h1>
+    <div class="image-item">
+            <img src="voting2.png" alt=" Voting System Data Flow">
+            <p>Feedback Page</p>
+        </div>
+
+</div>
+
+<!-- Slide 7 -->
+<div class="slide">
+    <h1>System Modules</h1>
+
+    <div class="module-grid">
+        <div class="module-card">
+            <h3>Student Module</h3>
+            <p>Allows students to log in, view candidates, and cast their vote securely.</p>
+        </div>
+        <div class="module-card">
+            <h3>Admin Module</h3>
+            <p>Enables the administrator to manage candidates, monitor voting activities, and view results.</p>
+        </div>
+        <div class="module-card">
+            <h3>Authentication Module</h3>
+            <p>Verifies user identity using login credentials to ensure that only authorized users can access the system.</p>
+        </div>
+        <div class="module-card">
+            <h3>Database Module</h3>
+            <p>Stores student details, candidate information, and voting data securely.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Slide 8 -->
+<div class="slide">
+    <h1>Key Features</h1>
+
+    <div class="card-grid">
+        <div class="card-item">Secure user authentication system</div>
+        <div class="card-item">Prevents duplicate voting (one user, one vote)</div>
+        <div class="card-item">Fast vote submission and processing</div>
+        <div class="card-item">Automatic result generation</div>
+        <div class="card-item">Real-time data storage in database</div>
+        <div class="card-item">Transparent and reliable system</div>
+        <div class="card-item">User-friendly interface</div>
+        <div class="card-item">Data security and integrity</div>
+    </div>
+</div>
+<div class="slide">
+    <h1>Technical Stack</h1>
+
+    <div class="stack-grid">
+        <div class="stack-item">
+            <h4>Frontend</h4>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="stack-item">
+            <h4>Backend</h4>
+            <p>Python</p>
+        </div>
+        <div class="stack-item">
+            <h4>Framework</h4>
+            <p>Flask</p>
+        </div>
+        <div class="stack-item">
+            <h4>Database</h4>
+            <p>SQLite</p>
+        </div>
+        <div class="stack-item">
+            <h4>Deployment</h4>
+            <p>Render</p>
+        </div>
+    </div>
+
+    <div class="hug">
+        <p>The frontend is used to design the user interface, while the backend handles application logic. Flask is used to connect the frontend with the database, and SQLite is used to store voting data securely.</p>
+    </div>
+</div>
+<div class="slide">
+    <h1>System Output</h1>
+
+    <div class="feature-boxes">
+        <div class="feature-box">Login Page</div>
+        <div class="feature-box">Voting Page</div>
+        <div class="feature-box">Result Page</div>
+    </div>
+
+    <div class="hug">
+        <p>The system provides an easy-to-use interface for students to log in, cast their vote, and view results. The admin can also monitor the voting process and generate reports.</p>
+    </div>
+
+    <!-- Screenshots -->
+    <div class="image-grid">
+        <div class="image-item">
+            <img src="login.jpeg" alt="Login Page">
+            <p>Login Page</p>
+        </div>
+        <div class="image-item">
+            <img src="voting.jpeg" alt="Voting Page">
+            <p>Voting Page</p>
+        </div>
+        <div class="image-item">
+            <img src="rate.jpeg" alt="Rating Page">
+            <p>Rating Page</p>
+        </div>
+        <div class="image-item">
+            <img src="reasult.jpeg" alt="Result Page">
+            <p>Result Page</p>
+        </div>
+        <div class="image-item">
+            <img src="voting_feedback.jpeg" alt="Feedback Page">
+            <p>Feedback Page</p>
+        </div>
+    </div>
+</div>
+<div class="slide">
+    <h1>Conclusion</h1>
+
+    <div class="hug">
+        <p>The College Voting System provides a secure, efficient, and transparent method for conducting elections.</p>
+
+        <p>It eliminates the limitations of the traditional paper-based system by reducing manual effort, minimizing errors, and ensuring accurate results.</p>
+
+        <p>The system is user-friendly and ensures that each vote is counted fairly and securely.</p>
+    </div>
+</div>
+
+<!-- Slide 10 -->
+<div class="slide">
+    <h1>Thank You</h1>
+
+</div>
+
+<div class="btns">
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
